@@ -1,0 +1,142 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+header a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+}
+nav a {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.mainPhoto {
+  padding: 0px;
+}
+.mainPhoto .programmer {
+  width: 100%;
+  height: auto;
+}
+
+.mainContent {
+  padding: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.mainContent h1 {
+  font-size: 30px;
+  margin: 0px;
+}
+.mainContent .photoCard {
+  background-color: rgba(228, 172, 230, 0.164);
+  padding: 15px;
+  height: 150px;
+  position: relative;
+  border-bottom: 3px solid red;
+}
+.mainContent .photoCard img {
+  float: left;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.mainContent .photoCard p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 170px;
+}
+.mainContent .card {
+  padding: 10px;
+  border-bottom: 3px solid red;
+}
+.mainContent .video figure {
+  margin: 0px;
+  margin-top: 15px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
+}
+.mainContent .video figure iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.mainContent .video p {
+  margin: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer p {
+  margin: 5px;
+}
+footer i {
+  padding: 10px;
+}
+footer a {
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 750px) {
+  header img {
+    position: unset;
+  }
+  header a {
+    position: unset;
+  }
+
+  nav {
+    padding: 0px;
+  }
+  nav a {
+    display: block;
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
